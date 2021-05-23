@@ -103,32 +103,4 @@ d3.json(dataFile).then(function(data) {
   init();
   
 });
-console.log(metadata)
-//Promise Pending
-//const dataPromise = d3.json(dataFile);
-//console.log("Data Promise: ", dataPromise);
 
-// Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
-
-//d3.select("select")
-
-
-
-
-// Use sample_values as the values for the bar chart.
-
-
-// Use otu_ids as the labels for the bar chart.
-
-
-// Use otu_labels as the hovertext for the chart.
-
-
-
-// Use D3 to create an event handler
-// d3.selectAll("body").on("change", updatePage);
-
-// function updatePage() {
-//   console.log(d3.event.target.value);
-// console.log(d3.event.target.id);
-// }
